@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
-  int days = 30;
-  String name = "Deep";
-  double x = 5.14;
-  bool ismale = true;
-  num temp = 30.5; //num datatype can take both int and double variable;
-  var day1 = "monday"; // we can store all type of datatype variable with var
+  final int days = 30;
+  final String name = "Deep";
+ final double x = 5.14;
+  final bool ismale = true;
+  final num temp = 30.5; //num datatype can take both int and double variable;
+  // var day1 = "monday"; // we can store all type of datatype variable with var
   //const pi = 3.14;
   final pi = 3.14;
   @override
