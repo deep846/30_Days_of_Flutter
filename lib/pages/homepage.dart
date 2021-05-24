@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-class homepage extends StatelessWidget {
+class HomePage extends StatelessWidget {
   int days = 30;
   String name = "Deep";
   double x = 5.14;
